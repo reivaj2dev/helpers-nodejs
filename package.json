@@ -1,0 +1,21 @@
+{
+    "name": "helpers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start:crypto": "node ./crypto/index.js",
+        "test:crypto": "mocha ./crypto/test/crypto.test.js"
+    },
+    "author": "jcruherp",
+    "license": "ISC",
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "dotenv": "^16.1.3",
+        "mocha": "^10.2.0",
+        "winston": "^3.9.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.8"
+    }
+}
