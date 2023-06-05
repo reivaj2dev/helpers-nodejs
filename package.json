@@ -7,7 +7,7 @@
         "start:crypto": "node ./crypto/index.js",
         "test:crypto": "mocha ./crypto/test/crypto.test.js"
     },
-    "author": "jcruherp",
+    "author": "reivaj2dev",
     "license": "ISC",
     "dependencies": {
         "crypto": "^1.0.1",
